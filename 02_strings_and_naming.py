@@ -8,6 +8,9 @@ flexible_string = "It's a great day to code"
 multi_line_string = """This is a paragraph
 that spans across
 multiple lines."""
+# boolean Type
+is_learning = True
+print(is_learning)
 
 # 4. f-Strings (The modern & best way to inject variables)
 user_name = "Learner"
@@ -21,6 +24,7 @@ total_price_amount = 450.50
 StudentName = "Alice"
 # Variable Naming Convention: camelCase
 totalPriceAmount = 450.50
+
  
 print(greeting)
 print(flexible_string)
