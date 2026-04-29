@@ -26,3 +26,16 @@ marks.extend([15,20])
 print(marks)
 marks.index(5) # it will return the index of first occurrence of 5 in the list
 print(marks.count(5)) # it will return the number of occurrence of 5 in
+# List comprehension in python
+squares =[x**2 for x in range(1,11)]
+print(squares)
+even_numbers=[x for x in range(1,21) if x%2==0]
+print(even_numbers)
+#List using for loop
+x=[1,2,3,4,5]
+index=0
+for val in x: 
+  if val==2:
+    print(index)
+    break
+  index+=1
