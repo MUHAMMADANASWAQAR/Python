@@ -1,6 +1,6 @@
 # The string is immutable in python and also sting we can use single quote or double quote or f-strings or triple quotes for more lines  to define a string in python
 
-word="anas "
+word="anas"
 # sting length
 print("The length of the word is ", len(word))
 # string concatenation
@@ -11,3 +11,9 @@ print("The full name is ", full_name)
 # string slicing
 print("The first character of the word is ", word[0])
 #word[2]="s" # this will give an error because string is immutable
+# Slicing in python
+print(word[2:len(word)]) #as
+print(word[:3])#ana
+print(word[2:3])
+print(word[2:])
+print(word[-3:-1])
