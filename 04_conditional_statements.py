@@ -19,5 +19,14 @@ if number%2==0:
     print("The number is even")
 else :
     print("The number is odd")
-    
+# Nesting of if statement
+Name=input("Enter your name : ")
+password=input("Enter your password : ")
+if Name=="admin" and password=="admin123":
+    print(" Login Successfully ")
+else :
+    if Name!="admin":
+        print("Invalid Name")
+    else: 
+        print("Invalid Password")
   
