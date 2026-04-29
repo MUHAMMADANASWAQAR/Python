@@ -6,3 +6,23 @@ print(marks[-5:-3])
 #List is mutable in python
 marks[0]=4
 print(marks)
+# methods in list 
+marks.append(12)
+print(marks)
+marks.insert(2,6)
+print(marks)
+marks.remove(9)
+print(marks)
+marks.pop()
+print(marks)
+marks.sort()
+print(marks)
+marks.reverse()
+print(marks)
+
+part =marks.copy()
+print(part)
+marks.extend([15,20])
+print(marks)
+marks.index(5) # it will return the index of first occurrence of 5 in the list
+print(marks.count(5)) # it will return the number of occurrence of 5 in
