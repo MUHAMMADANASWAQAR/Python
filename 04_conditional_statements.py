@@ -6,4 +6,18 @@ elif a=="blue":
 else :
   print("The Select color is neither blue nor red ")
   
+# number is multiply by 5 or not 
+number=int(input("Enter a number to check if it is multiply by 5 or not : "))
+if number%5==0:
+  print("The number is multiply by 5")
+else : 
+  print("The number is not multiply by 5")
+  
+  # number is evern or not 
+number=int(input("Enter a number to check if it is even or not : "))  
+if number%2==0:
+    print("The number is even")
+else :
+    print("The number is odd")
+    
   
