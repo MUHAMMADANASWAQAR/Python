@@ -9,4 +9,18 @@ count=1
 while count < 11 :
   print(number,"*",count,"=",number*count)
   count+=1
-  
+# break and continue statement in while loop 
+count=1 
+while count <=10 : 
+   if count % 2 ==0:
+     count +=1
+     continue
+   print(count)
+   count+=1
+   
+while(True):
+    name=input("Enter your name : ")
+    if name=="exit":
+        print("Exiting the loop")
+        break
+    print("Hello ",name)
