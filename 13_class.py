@@ -31,5 +31,14 @@ st1=student("Anas",["Math","Physics","Chemistry"],["Computer Science"],3.5)
 st1.display_final_price(100 ,10 )
 print(st1.name)
 print(st1.subjects) 
+#Example 
+class product : 
+  def __init__(self, name , price ):
+    self.name=name 
+    self.price=price 
+    
+  def get_info(self ):
+    print (f" The name of the product {self.name} and price is this {self.price}" )
 
-
+p1=product("shampoo" , 30)
+p1.get_info()
