@@ -11,3 +11,26 @@ class teacher(employee):
     
 p1= teacher("physics")
 p1.print_tecaher_info()
+
+# Multiple inheritance classes
+
+class Teacher:
+  def __init__(self,salary):
+    self.salary=salary
+    
+class Student:
+  def __init__(self , cgpa):
+    self.cgpa=cgpa
+  
+class Assistant(Teacher , Student ):
+  def __init__(self, name,salary,cgpa):
+    Teacher.__init__(self, salary)
+    Student.__init__(self, cgpa)
+    self.name=name
+    
+p=Assistant("anas" , 300000, 3.85)
+print(f"Assistant: {p.name}, Salary: {p.salary}, CGPA: {p.cgpa}")
+
+  
+    
+    
