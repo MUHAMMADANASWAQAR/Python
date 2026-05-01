@@ -31,14 +31,25 @@ st1=student("Anas",["Math","Physics","Chemistry"],["Computer Science"],3.5)
 st1.display_final_price(100 ,10 )
 print(st1.name)
 print(st1.subjects) 
-#Example 
+#Example  track total product we created 
 class product : 
+  count=0
   def __init__(self, name , price ):
     self.name=name 
     self.price=price 
+    product.count+=1
     
   def get_info(self ):
     print (f" The name of the product {self.name} and price is this {self.price}" )
-
+  
+  @classmethod
+  def product_count(cls):
+   print(f"The product count is {cls.count}")
+   
+  def get_discount(self, dis):
+    print(f" The discount price of this product is {self.price-(self.price*dis/100)}")
+   
 p1=product("shampoo" , 30)
 p1.get_info()
+p1.product_count()
+p1.get_discount(20)
