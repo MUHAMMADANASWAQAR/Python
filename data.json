@@ -1,0 +1,11 @@
+{
+    "name": "Ali",
+    "age": 25,
+    "city": "Lahore",
+    "languages": [
+        "Python",
+        "JavaScript",
+        "SQL"
+    ],
+    "is_student": false
+}
