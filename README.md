@@ -16,6 +16,10 @@ This repository contains Python practice files covering core programming concept
 - Async programming with `asyncio`
 - Pydantic models and validation
 
+## Learning Path
+
+Start with the numbered files from `01_hello_world.py` through `12_sets.py` to cover Python fundamentals. Then move into the object-oriented examples from `13_class.py` through `18_polymorphism.py`. The final files introduce practical topics such as file handling, JSON, async programming, and Pydantic validation.
+
 ## Project Files
 
 The files are numbered in learning order:
